@@ -31,8 +31,9 @@ nav ul{
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    align-content: center;
 }
 nav li{
     height: 50px;
@@ -66,7 +67,7 @@ nav a:hover{
     background-color: rgb(212, 212, 212);
 }
 nav li:first-child{
-    margin-right: auto;
+    margin-right: 40px;
 }
 .sidebar{
     position: fixed;
@@ -95,6 +96,12 @@ nav li:first-child{
 
 
 @media(max-width: 800px){
+    nav ul{
+        justify-content: flex-end;
+    }
+    nav li:first-child{
+        margin-right: auto;
+    }
     .hideonmobile{
         display: none;
     }
@@ -148,7 +155,7 @@ nav li:first-child{
     font-weight: bold;
     font-style: normal;
 }
-.profil .job{
+.profil h3{
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;

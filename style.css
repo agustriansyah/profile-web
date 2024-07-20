@@ -148,7 +148,7 @@ nav li:first-child{
     font-weight: bold;
     font-style: normal;
 }
-.profil h3{
+.profil .job{
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
